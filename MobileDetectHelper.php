@@ -25,7 +25,7 @@ class MobileDetectHelper
      */
     static function isMobile()
     {
-        return self::$detect->isMobile();
+        return self::$detect->isMobile() && !self::$detect->isTablet();
     }
 
     /**
