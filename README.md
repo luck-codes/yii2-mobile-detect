@@ -25,7 +25,7 @@ php composer.phar require --prefer-dist luckcodes/yii2-mobile-detect "dev-master
 
 Как использовать в коде:
 ---
-Проверка является ли устройство мобильным телефоном или планшетом:
+Проверка является ли устройство мобильным телефоном:
 
 ```
 $isMobile = \luckcodes\mobiledetect\MobileDetectHelper::isMobile();
