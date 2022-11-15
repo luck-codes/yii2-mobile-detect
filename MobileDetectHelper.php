@@ -229,7 +229,7 @@ class MobileDetectHelper
      * We define only mobile without tablets
      * @return boolean
      */
-    static function isOnlyMobile()
+    static function isPhone()
     {
         return self::$detect->isMobile() && !self::$detect->isTablet();
     }
@@ -238,7 +238,7 @@ class MobileDetectHelper
      * We define desktop mobile without tablets
      * @return boolean
      */
-    static function isOnlyDesktop()
+    static function isDesktop()
     {
         return !self::$detect->isMobile() && !self::$detect->isTablet();
     }

@@ -28,7 +28,7 @@ php composer.phar require --prefer-dist luckcodes/yii2-mobile-detect "~1.1"
 Проверка является ли устройство мобильным телефоном:
 
 ```
-$isMobile = \luckcodes\mobiledetect\MobileDetectHelper::isOnlyMobile();
+$isMobile = \luckcodes\mobiledetect\MobileDetectHelper::isPhone();
 ```
 Проверка является ли устройство мобильным телефоном или планшетом:
 
@@ -43,12 +43,6 @@ $isTablet = \luckcodes\mobiledetect\MobileDetectHelper::isTablet();
 ```
 
 Проверка является ли устройство ПК:
-
-```
-$isDesktop = \luckcodes\mobiledetect\MobileDetectHelper::isOnlyDesktop();
-```
-
-Проверка является ли устройство ПК или планшетом:
 
 ```
 $isDesktop = \luckcodes\mobiledetect\MobileDetectHelper::isDesktop();
