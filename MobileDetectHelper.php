@@ -205,7 +205,7 @@ class MobileDetectHelper
     static private $detect = false;
 
     /**
-     * init
+     * init MobileDetect
      */
     static function init()
     {
