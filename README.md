@@ -12,13 +12,13 @@
 Либо запустить
 
 ```
-php composer.phar require --prefer-dist luckcodes/yii2-mobile-detect "dev-master"
+php composer.phar require --prefer-dist luckcodes/yii2-mobile-detect "~1.1"
 ```
 
 или добавить
 
 ```
-"luckcodes/yii2-mobile-detect": "dev-master"
+"luckcodes/yii2-mobile-detect": "~1.1"
 ```
 
 в требуемый раздел вашего `composer.json` файл.
